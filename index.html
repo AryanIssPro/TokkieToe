@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Tekkie Toe</title>
+    <link rel="stylesheet" href="styles.css"><!--LINKING CSS STYLE TO OUR WEB PAGE-->
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="gradient-text">TokkieToe</h1>
+    </header>
+
+    <main>
+        <br/>
+        <br/>
+
+        <div class="one">
+            <br/>
+            <a href="Game.html"target="_main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyb9N9_AEsJFp6ksnkcoaAtWOSDjqf3pvy_w&s"
+            alt="play tic tac toe game"height="200";> <br/>
+            <button><h2> Let's PlayTic-Tac-Toe<h2></button>
+        </div>
+        <br/>
+        <div class="one">
+            <br/>
+            <a href="Guide.html"target="_main">                 
+            <img src="https://static-perf1.zupee.com/blog-images/uploads/2022/07/tricks-and-tips-to-win-tic-tac-toe.webp"
+            alt="Guide of tic tac toe game"height="200"; >  <br/>
+            <button><h2>Click me for Guide</h2></button>
+         </div>
+    </main>
+   
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tic-Tac-Toe Knowledge Hub. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+    <script>
+        // Get the button element by class name
+        const PlayButton = document.querySelector('.PlayButton');
+        const GuideButton = document.querySelector('.Guide')
+        
+        // Add event listener to open a webpage when clicked
+        PlayButton.addEventListener('click', function() {
+            // Open the webpage in a new tab
+            window.open('game.html', '_blank');
+        });
+
+        GuideButton.addEventListener('click', function() {
+            // Open the webpage in a new tab
+            window.open('guide.html', '_blank');
+        });
+        
+    </script>
+</html>

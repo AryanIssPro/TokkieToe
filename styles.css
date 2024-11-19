@@ -1,0 +1,122 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Body & Typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fbfcf5;
+    color: #333;
+}
+.one{
+    background-color: #333;
+    align-items:center ;
+    margin: 10px;
+    border-radius: 15px;
+}
+div:hover{
+    background-color: #161f2a;
+    transform: translateY(-5px);
+}
+
+/* Header */
+header {
+    background: #2d3e50; 
+    color:white;
+    padding: 20px;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 50px 0;
+    background-color: white;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gradient-text {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 4rem;
+    background: linear-gradient(to right, #40e0d0, #ff8c00);
+    -webkit-background-clip: text; 
+    color: transparent; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+Button{
+    padding: 10px 20px;
+    background-color: #93fff4;
+    border: none;
+    border-radius: 6px;
+    margin: 20px;
+    transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s;
+}
+
+Button:hover{
+    background-color: #40e0d0;
+    transform: translateY(-5px);
+
+}
