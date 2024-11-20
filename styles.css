@@ -3,33 +3,34 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
-/* Body & Typography */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #fbfcf5;
     color: #333;
 }
+
 .one{
-background-color: #2d3e50;
-border-radius: 20px;
+    background-color: #2d3e50;
+    border-radius: 20px;
+    transition: transform 0.3s, background-color 0.3s;
+    padding-bottom: 10px;
 }
-
-.one img{
-    border-radius: 35px;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-    padding: 20px;
-    display: block;
-}
-
 
 .one:hover{
     background-color: #161f2a;
     transform: translateY(-5px);
+}
+
+img{
+    padding: 25px;
+    border-radius: 35px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -116,23 +117,22 @@ footer {
     padding: 20px; 
 }
 
-/* Ensure the button's parent container is a flex container */
-.container {
-    display: flex;
-    justify-content: center;  /* Horizontally center the button */
-    align-items: center;      /* Vertically center the button */
-    height: 100vh;            /* Optional: make sure it takes the full viewport height */
-}
 
 /* Button styling */
 button {
-    padding: 10px 20px;
-    background-color: #93fff4;
+    margin: 20px auto 10px auto;
+    display: block;
+    background-color: #3b82f6;
+    color: white;
+    padding: 15px 30px;
     border: none;
-    border-radius: 6px;
-    transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1.2em;
 }
-
 
 button:hover{
     background-color: #40e0d0;
