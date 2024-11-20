@@ -13,12 +13,21 @@ body {
     color: #333;
 }
 .one{
-    background-color: #333;
-    align-items:center ;
-    margin: 10px;
-    border-radius: 15px;
+background-color: #2d3e50;
+border-radius: 20px;
 }
-div:hover{
+
+.one img{
+    border-radius: 35px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    display: block;
+}
+
+
+.one:hover{
     background-color: #161f2a;
     transform: translateY(-5px);
 }
@@ -94,6 +103,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+    
 }
 
 .gradient-text {
@@ -106,16 +116,25 @@ footer {
     padding: 20px; 
 }
 
-Button{
+/* Ensure the button's parent container is a flex container */
+.container {
+    display: flex;
+    justify-content: center;  /* Horizontally center the button */
+    align-items: center;      /* Vertically center the button */
+    height: 100vh;            /* Optional: make sure it takes the full viewport height */
+}
+
+/* Button styling */
+button {
     padding: 10px 20px;
     background-color: #93fff4;
     border: none;
     border-radius: 6px;
-    margin: 20px;
     transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s;
 }
 
-Button:hover{
+
+button:hover{
     background-color: #40e0d0;
     transform: translateY(-5px);
 
