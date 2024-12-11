@@ -109,13 +109,11 @@ footer {
 
 .gradient-text {
     font-family: 'Grand Hotel', cursive;
-    font-size: 4rem;
+    font-size: 3rem;
     background: linear-gradient(to right, #40e0d0, #ff8c00);
     -webkit-background-clip: text; 
     color: transparent; 
     text-align: center; 
-    padding: 20px; 
-}
 
 
 /* Button styling */
